@@ -48,6 +48,11 @@ export default function HomepageFeatures() {
       title: "Focus mode",
       text: "Get feedback on your writing.",
     },
+    {
+      image: useBaseUrl("/img/folds.png"),
+      title: "Folds",
+      text: "Got a lot of text? Hide the parts you are not working on.",
+    },
   ];
 
   return (
