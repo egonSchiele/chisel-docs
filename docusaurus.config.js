@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Chisel Editor",
-  tagline: "A community of 31 writers and counting",
+  tagline: "An open source writing app",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -53,17 +53,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/egonSchiele/chisel-docs/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/egonSchiele/chisel-docs/blob/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -76,12 +69,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/logo.png",
       navbar: {
-        title: "My Site",
+        title: "Chisel Docs",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "Chisel Logo",
+          src: "img/favicon_128.png",
         },
         items: [
           {
@@ -90,9 +83,18 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            to: "https://chiseleditor.com/login.html",
+            label: "Log in",
+            position: "left",
+          },
+          {
+            to: "https://chiseleditor.com/register.html",
+            label: "Register",
+            position: "left",
+          },
+          {
+            href: "https://github.com/egonSchiele/chisel",
             label: "GitHub",
             position: "right",
           },
@@ -106,7 +108,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/docs/introduction",
               },
             ],
           },
@@ -120,12 +122,16 @@ const config = {
               },
               {
                 label: "GitHub",
+                href: "https://github.com/egonSchiele/chisel",
+              },
+              {
+                label: "Docs on GitHub",
                 href: "https://github.com/egonSchiele/chisel-docs",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Aditya Bhargava. Built with Docusaurus.`,
+        copyright: `Brought to you by Aditya Bhargava and Alex Manning.`,
       },
       prism: {
         theme: lightCodeTheme,
