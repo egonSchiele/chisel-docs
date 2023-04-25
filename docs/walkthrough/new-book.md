@@ -6,7 +6,11 @@ sidebar_position: 1
 
 Welcome to Chisel! To create your first book, click the plus sign in the sidebar titled "BOOKS".
 
+![Books menu](/img/ss/books.png)
+
 Rename your book by clicking the three dots next to the title and selecting "rename book." 
+
+![Books menu](/img/ss/books-dots.png)
 
 Now click on the title of the book. You should see a new panel show up, titled "CHAPTERS".
 

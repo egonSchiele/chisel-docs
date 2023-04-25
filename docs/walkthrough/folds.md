@@ -4,6 +4,8 @@ sidebar_position: 7
 
 # Folds
 
+![screenshot of a fold](/img/ss/fold.png)
+
 When you open the text editor, you’ll spot a gray line with an arrow pointing down. This little arrow lets you fold a block of your text. Let's see how it works.
 
 To fold a block, add a few lines, then hit the arrow. It'll point to the right and most of your text will disappear, leaving just the first line. Hit the arrow again, and your words will reappear.

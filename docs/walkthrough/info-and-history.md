@@ -18,7 +18,11 @@ Type this text in the editor:
 First line
 ```
 
-and manually save with `command+s`. Tada, a new entry in the history panel. Let's make a small change. Add another line:
+and manually save with `command+s`. Tada, a new entry in the history panel!
+
+![screenshot of the first line in history](/img/ss/first-line.png)
+
+Let's make a small change. Add another line:
 
 ```
 First line
@@ -26,6 +30,8 @@ Second line
 ```
 
 Hit save again, and you'll see another entry with the changes. You can click on any of the entries in the history panel to get back to that version.
+
+![screenshot of the second line in history](/img/ss/second-line.png)
 
 :::danger Note
 Entries are added to the history when you manually save using command+s. They are not added on auto-save.

@@ -6,11 +6,11 @@ sidebar_position: 4
 
 Click this icon to show the rightmost panel if you don't have it open:
 
-PIC
+![Icon to open sidebar (three dots all the way to the top right of the editor)](/img/ss/open-sidebar.png)
 
 Then click the gear icon for settings:
 
-PIC
+![gear icon for settings](/img/ss/gear.png)
 
 Here, you can choose your AI preferences, including number of suggestions. Set it to 3 for more suggestions per response. Scroll to the bottom, hit Save, and voila! You'll get three responses now. 
 

@@ -23,7 +23,7 @@ function HomepageHeader() {
           </a>
           <Link
             className="button button--secondary button--lg bg-gray-200"
-            to="/docs/intro"
+            to="/docs/introduction"
           >
             Read docs
           </Link>
