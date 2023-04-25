@@ -44,10 +44,15 @@ export default function HomepageFeatures() {
       text: "Organize your chapters by act or by beat using grid mode.",
     },
     {
+      image: useBaseUrl("/img/diff.png"),
+      title: "Diff mode",
+      text: "Compare two versions of your writing side-by-side.",
+    },
+    /*     {
       image: useBaseUrl("/img/focusmode.png"),
       title: "Focus mode",
       text: "Get feedback on your writing.",
-    },
+    }, */
     {
       image: useBaseUrl("/img/folds.png"),
       title: "Folds",
