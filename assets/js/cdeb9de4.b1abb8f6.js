@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchisel_docs=self.webpackChunkchisel_docs||[]).push([[9369],{6318:s=>{s.exports=JSON.parse('{"permalink":"/chisel-docs/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
