@@ -22,7 +22,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <a
             className="button button--primary button--lg bg-black mr-4 dark:text-white border-0"
-            to="https://chiseleditor.com/register.html"
+            href="https://chiseleditor.com/register.html"
           >
             Try Demo
           </a>
