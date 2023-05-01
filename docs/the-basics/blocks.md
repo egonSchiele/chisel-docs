@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Folds
+# Blocks
 
 ![screenshot of a fold](/img/ss/fold.png)
 
