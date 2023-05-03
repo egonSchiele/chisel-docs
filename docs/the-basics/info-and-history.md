@@ -22,7 +22,7 @@ Type this text in the editor:
 First line
 ```
 
-and manually save with `command+s`. Tada, a new entry in the history panel!
+and manually save with `command+shift+s`. Tada, a new entry in the history panel!
 
 ![screenshot of the first line in history](/img/ss/first-line.png)
 
@@ -38,7 +38,7 @@ Hit save again, and you'll see another entry with the changes. You can click on 
 ![screenshot of the second line in history](/img/ss/second-line.png)
 
 :::danger Note
-Entries are added to the history when you manually save using command+s. They are not added on auto-save.
+Entries are added to the history when you manually save using `command+shift+s`. They are not added on auto-save, or when you save using `command+s`.
 :::
 
 ### Fullscreen

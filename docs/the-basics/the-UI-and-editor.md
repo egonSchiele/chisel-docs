@@ -12,7 +12,11 @@ If you don't see all five panels, you can show them by pressing escape twice. Th
 
 On the left, you'll find all your books and chapters. That's your map, so you don't have to worry about getting lost in your own writing jungle. 
 
-The main attraction is in the middle – the editor. This is where the real writing magic happens. So, go ahead, and type away. 
+## The Editor
+
+The main attraction is in the middle – the editor. This is where the real writing magic happens. So, go ahead, and type away. The editor supports markdown. If you want to see your rendered markdown, press the pencil icon to activate read mode.
+
+The editor also supports plain text and code blocks. We will discuss these later.
 
 Above the editor, You will see some icons, including a green checkmark:
 
