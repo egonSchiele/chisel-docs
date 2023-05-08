@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Chisel Editor",
-  tagline: "An open source writing app",
+  tagline: "A text editor for organizing large amounts of text",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here

@@ -24,7 +24,7 @@ function HomepageHeader() {
             className="button button--primary button--lg bg-black mr-4 dark:text-white border-0"
             href="https://chiseleditor.com/register.html"
           >
-            Try Demo
+            Register
           </a>
           <Link
             className="button button--secondary button--lg bg-white dark:bg-gray-200 border-0"
