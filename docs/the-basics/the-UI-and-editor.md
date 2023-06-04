@@ -8,9 +8,7 @@ Let's walk through the user interface. It should look something like this:
 
 ![screenshot of the user interface](/img/ss/ui.png)
 
-If you don't see all five panels, you can show them by pressing escape twice. The first time you press escape, it will hide all the panels. The second time, it will show them all.
-
-On the left, you'll find all your books and chapters. That's your map, so you don't have to worry about getting lost in your own writing jungle. 
+On the top left, you'll see the file navigation button. Click it to find all your books and chapters. That's your map, so you don't have to worry about getting lost in your own writing jungle. 
 
 ## The Editor
 
@@ -24,4 +22,4 @@ Above the editor, You will see some icons, including a green checkmark:
 
 If you see a green checkmark, it means all your edits have been automatically saved. But, if it changes to a dash, it's like a warning sign that your changes are not yet saved. Chisel saves your work every five seconds. If you can't wait that long, just hit command + S to save it yourself. 
 
-Last but not least, you have two more columns on the right – prompts and suggestions. These will help you get out of a writer's block. Let’s talk about these next.
+Last but not least, let's talk about Two more navigation buttons. On the top left, you'll see a button with sparkles on it. These are the AI prompts. On the top right, you'll see a circle with three dots. These are your settings. Let’s talk about these next.

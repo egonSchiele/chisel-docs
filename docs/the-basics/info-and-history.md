@@ -6,7 +6,9 @@ sidebar_position: 6
 
 ### Info
 
-Now let's check out the other icons way over to the right. First up is the info panel. To get there, click on the icon that has an 'i' in a circle, or invoke the launcher and select "Open Info".
+Now let's check out the other icons in the right sidebar. If you don't see the sidebar, click the  circle with three dots on the top right.
+
+First up is the info panel. To get there, click on the icon that has an 'i' in a circle, or invoke the launcher and select "Open Info".
 
 This panel will give you basic info about the chapter you're working on, such as word count. It can also show your character sheets. Read more about this in the character sheets section.
 

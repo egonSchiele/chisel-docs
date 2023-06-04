@@ -4,6 +4,8 @@ sidebar_position: 8
 
 # Versions
 
+🚧 This feature is still under construction and may change 🚧
+
 Versions let you keep different versions of one block of text. You will encounter them most often when you get a suggestion back from the AI, or you edit your text in focus mode. Here's a block with versions:
 
 ![screenshot of block with versions](/img/ss/block-with-versions.png)
