@@ -138,8 +138,13 @@ const config = {
         copyright: `Brought to you by Aditya Bhargava and Alex Manning.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
     }),
 };
