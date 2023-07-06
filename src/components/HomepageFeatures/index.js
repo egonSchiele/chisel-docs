@@ -33,11 +33,11 @@ export default function HomepageFeatures() {
       title: "AI prompts",
       text: "Built-in AI prompts like expand, contract, and rewrite... and it's easy to add your own.",
     },
-    {
+    /* {
       image: useBaseUrl("/img/ask-question.png"),
       title: "Talk to your text",
       text: "Ask questions and get answers from your text.",
-    },
+    }, */
     {
       image: useBaseUrl("/img/folds.png"),
       title: "Folds",
@@ -49,12 +49,12 @@ export default function HomepageFeatures() {
       title: "Grid mode",
       text: "Organize your chapters by act or by beat using grid mode.",
     }, */
-    {
+    /*    {
       image: useBaseUrl("/img/diff.png"),
       title: "Diff mode",
       text: "Compare two versions of your writing side-by-side.",
     },
-
+ */
     {
       image: useBaseUrl("/img/launcher.png"),
       title: "Quick-launch",
@@ -70,11 +70,11 @@ export default function HomepageFeatures() {
       title: "Character sheets",
       text: "Keep track of your characters and their relationships.",
     },
-    {
+    /*     {
       image: useBaseUrl("/img/focusmode.png"),
       title: "Focus mode",
       text: "Get feedback on your writing.",
-    },
+    }, */
   ];
 
   return (

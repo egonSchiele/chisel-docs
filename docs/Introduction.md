@@ -9,3 +9,5 @@ Chisel is an app for writing books and stories. It has some unique features:
 - Integration with ChatGPT
 
 Best of all, it's free and open source! Let's walk through how to use it.
+
+**Note: Because Chisel is constantly changing, parts of this documentation may be out of date!**
