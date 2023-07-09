@@ -33,6 +33,34 @@ const config = {
   },
 
   plugins: [
+    () => ({
+      name: "inject-tag",
+
+      injectHtmlTags({ content }) {
+        return {
+          headTags: [
+            {
+              tagName: "script",
+              attributes: {
+                src: "https://plausible.io/js/script.tagged-events.js",
+                defer: true,
+                "data-domain": "egonschiele.github.io",
+              },
+            },
+            {
+              tagName: "script",
+              attributes: {},
+              innerHTML: `window.plausible =
+              window.plausible ||
+              function () {
+                (window.plausible.q = window.plausible.q || []).push(arguments);
+              };
+            `,
+            },
+          ],
+        };
+      },
+    }),
     async function myPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",
@@ -60,10 +88,6 @@ const config = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
-        },
-        gtag: {
-          trackingID: "G-X1JZ2MSH92",
-          anonymizeIP: true,
         },
       }),
     ],
@@ -147,13 +171,13 @@ const config = {
         respectPrefersColorScheme: false,
       },
     }),
-  scripts: [
+  /* scripts: [
     {
       src: "https://plausible.io/js/script.js",
       defer: true,
       "data-domain": "egonschiele.github.io",
     },
-  ],
+  ], */
 };
 
 module.exports = config;

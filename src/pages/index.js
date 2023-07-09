@@ -21,13 +21,13 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <a
-            className="button button--primary button--lg bg-black mr-4 dark:text-white border-0"
+            className="button button--primary button--lg bg-black mr-4 dark:text-white border-0 plausible-event-name=login-button-click"
             href="https://chiseleditor.com/login.html"
           >
             Log in
           </a>
           <Link
-            className="button button--secondary button--lg bg-white dark:bg-gray-200 border-0"
+            className="button button--secondary button--lg bg-white dark:bg-gray-200 border-0 plausible-event-name=read-docs-button-click"
             to="/docs/introduction"
           >
             Read docs
