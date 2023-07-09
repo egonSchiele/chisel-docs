@@ -147,6 +147,13 @@ const config = {
         respectPrefersColorScheme: false,
       },
     }),
+  scripts: [
+    {
+      src: "https://plausible.io/js/script.js",
+      defer: true,
+      "data-domain": "egonschiele.github.io",
+    },
+  ],
 };
 
 module.exports = config;
